@@ -8,10 +8,19 @@ so if you want to access the second item in the list, its index will be 1.
 
 
 def list_task():
-    numbers = [1, 2, 3]
-    strings = ['hello', 'world']
+    numbers = []
+    strings = []
     names = ["John", "Eric", "Jessica"]
     second_name = names[1]
+
+    # в подобных случаях лучше выглядит цикл. Изменю на три append, если критично
+    num = 1
+    while num <= 3:
+        numbers.append(num)
+        num += 1
+
+    strings.append("hello")
+    strings.append("world")
 
     print(numbers)
     print(strings)
