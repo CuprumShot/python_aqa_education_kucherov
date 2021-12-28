@@ -23,6 +23,8 @@ tomli = "==1.2.1"
 wrapt = "==1.12.1"
 requests = "*"
 selenium = "==3.141.0"
+colorama = "*"
+beautifulsoup4 = "*"
 
 [dev-packages]
 
